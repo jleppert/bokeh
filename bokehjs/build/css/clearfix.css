@@ -1,0 +1,8 @@
+.bk-clearfix:before,
+.bk-clearfix:after {
+  content: "";
+  display: table;
+}
+.bk-clearfix:after {
+  clear: both;
+}
